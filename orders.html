@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orders</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css" />
+    <link rel="stylesheet" href="styles/shared/posh-cart-header.css" />
+    <link rel="stylesheet" href="styles/pages/orders.css" />
+  </head>
+  <body>
+    <div class="posh-cart-header">
+      <div class="posh-cart-header-left-section">
+        <a href="tech-mart.html" class="header-link">
+          <h1 class="logo-of-site">Tech<span class="cart-logo">Mart</span></h1>
+        </a>
+      </div>
+
+      <div class="posh-cart-header-middle-section">
+        <h2 class="h2-products">Orders</h2>
+      </div>
+
+      <div class="posh-cart-header-right-section">
+        <a class="orders-link header-link" href="orders.html">
+          <ion-icon name="return-up-forward"></ion-icon>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <ion-icon name="cart"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="orders-grid">
+        <div class="order-container">
+          <div class="order-header">
+            <div class="order-header-left-section">
+              <div class="order-date">
+                <div class="order-header-label">Order Placed:</div>
+                <div>August 12</div>
+              </div>
+              <div class="order-total">
+                <div class="order-header-label">Total:</div>
+                <div>₱456.99</div>
+              </div>
+            </div>
+
+            <div class="order-header-right-section">
+              <div class="order-header-label">Order ID:</div>
+              <div>27cba69d-4c3d-4098-b42d-ac7fa62b7664</div>
+            </div>
+          </div>
+
+          <div class="order-details-grid">
+            <div class="product-image-container">
+              <img src="my-own-img/graphics-card.jpg" />
+            </div>
+
+            <div class="product-details">
+              <div class="product-name">
+                Asrock RX 6600 8G CHALLENGER D 8gb 128bit GDdr6 Dual Fan Design,
+                Super Alloy Striped Axial Fan Gaming Videocard
+              </div>
+              <div class="product-delivery-date">Arriving on: August 15</div>
+              <div class="product-quantity">Quantity: 1</div>
+              <button class="buy-again-button">
+                <img class="buy-again-icon" src="images/icons/buy-again.png" />
+                <span class="buy-again-message">Buy it again</span>
+              </button>
+            </div>
+
+            <div class="product-actions">
+              <a href="tracking.html">
+                <button class="track-package-button button-secondary">
+                  Track package
+                </button>
+              </a>
+            </div>
+
+            <div class="product-image-container">
+              <img src="my-own-img/memory.jpg" />
+            </div>
+
+            <div class="product-details">
+              <div class="product-name">
+                Team T-Force Vulcan Z 16GB Silver Heatsink (2 x 8GB) DDR4
+                3200MHz DIMM System Memory
+              </div>
+              <div class="product-delivery-date">Arriving on: August 19</div>
+              <div class="product-quantity">Quantity: 1</div>
+              <button class="buy-again-button">
+                <img class="buy-again-icon" src="images/icons/buy-again.png" />
+                <span class="buy-again-message">Buy it again</span>
+              </button>
+            </div>
+
+            <div class="product-actions">
+              <a href="tracking.html">
+                <button class="track-package-button button-secondary">
+                  Track package
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-container">
+          <div class="order-header">
+            <div class="order-header-left-section">
+              <div class="order-date">
+                <div class="order-header-label">Order Placed:</div>
+                <div>June 10</div>
+              </div>
+              <div class="order-total">
+                <div class="order-header-label">Total:</div>
+                <div>₱2.990.00</div>
+              </div>
+            </div>
+
+            <div class="order-header-right-section">
+              <div class="order-header-label">Order ID:</div>
+              <div>b6b6c212-d30e-4d4a-805d-90b52ce6b37d</div>
+            </div>
+          </div>
+
+          <div class="order-details-grid">
+            <div class="product-image-container">
+              <img src="my-own-img/graphics-card(2).jpg" />
+            </div>
+
+            <div class="product-details">
+              <div class="product-name">
+                Inno3D GTX 1650 Twin X2 OC 4gb 128bit GDdr6 Gaming Videocard
+              </div>
+              <div class="product-delivery-date">Arriving on: June 17</div>
+              <div class="product-quantity">Quantity: 1</div>
+              <button class="buy-again-button">
+                <img class="buy-again-icon" src="images/icons/buy-again.png" />
+                <span class="buy-again-message">Buy it again</span>
+              </button>
+            </div>
+
+            <div class="product-actions">
+              <a href="tracking.html">
+                <button class="track-package-button button-secondary">
+                  Track package
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Scripts of Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
